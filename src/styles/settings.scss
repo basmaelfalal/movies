@@ -1,0 +1,470 @@
+/**
+ * src/styles/settings.scss
+ *
+ * Configures SASS variables and Vuetify overwrites
+ */
+
+// https://vuetifyjs.com/features/sass-variables/`
+// @use 'vuetify/settings' with (
+//   $color-pack: false
+// );
+
+
+.banner {
+  .parent {
+
+    background-image: url(/img/a.png);
+    margin-top: 100%;
+    width: 100vw;
+    height: 90vh;
+    margin-top: 112px;
+    background-size: cover;
+
+    .watchnow {
+      height: 85px;
+      width: 269px;
+      margin-top: 389px;
+      background-color: red;
+      color: white;
+      font-size: 24px;
+      font-weight: 700px;
+      line-height: 36px;
+    }
+
+    .watchlater {
+      font-size: 24px;
+      font-weight: 700px;
+      line-height: 36px;
+      height: 85px;
+      width: 269px;
+      padding: 10px;
+      gap: 10px;
+      margin-top: 389px;
+      color: white;
+      border: red 4px solid;
+      font-size: 24px;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-left: 13px;
+      height: 31px;
+    }
+
+    .cont {
+      color: white;
+      font-weight: 500px;
+      font-size: 17px;
+      line-height: 48px;
+      width: 420px;
+      height: 48px;
+   
+    }
+
+    .set {
+      color: white;
+      font-weight: 500px;
+      font-size: 16px;
+      line-height: 24px;
+      width: 626px;
+      height: 96px;
+      margin-top: 10px;
+      text-align: left;
+    }
+
+    .gr-btn {
+      width: 90px;
+      height: 45px;
+      font-size: 20px;
+      line-height: 28px;
+      border-radius: 30px;
+      text-transform: none;
+      color: black;
+      background-color: white;
+    }
+
+    .gr-btn2 {
+      width: 117px;
+      height: 44px;
+      font-size: 20px;
+      line-height: 28px;
+      border-radius: 30px;
+      text-transform: none;
+      padding: 10px;
+     
+      color: black;
+      background-color: white;
+    }
+
+    .gr-btn3 {
+      width: 174px;
+      height: 44px;
+      font-size: 20px;
+      line-height: 28px;
+      border-radius: 30px;
+      text-transform: none;
+      padding: 10px;
+      color: black;
+      background-color: white;
+      margin-left: 11px;
+    }
+
+  
+
+  }
+}
+
+.text-recent {
+  font-weight: 900;
+  font-size: 30px;
+  text-align: left;
+  margin-bottom: 20px;
+  color: white;
+  margin-top: 50px;
+}
+.recently-updated {
+  background-color: black
+}
+.ma-3 {
+  width: 86px;
+  height: 148px;
+}
+
+.text {
+  margin-right: 37px;
+  margin-top: 20px;
+}
+.view {
+  height: 36px;
+  width: 95px;
+  font-weight: 60px;
+  font-size: 24px;
+  line-height: 36px;
+  color: #494949;
+  text-transform: none;
+  background-color: black;
+  margin-top: 50px;
+  margin-right: 10px;
+}
+.text-fast{
+  color: white;
+  margin-top: 10px;
+  font-size: 20px;
+  margin-right: 40px;
+}
+.text-medellin{
+  color: white;
+  margin-top: 10px;
+  font-size: 20px;
+  margin-right: 90px;
+}
+.img-recommended{
+  height: 344;
+  width: 256px;
+  border-radius: 10px;
+  background-color: black;
+}
+.gr-img {
+
+  border-radius: 10px;
+  background-color: black;
+}
+
+
+.text-treending {
+  color: white;
+  margin-top: 10px;
+  font-size: 20px;
+
+}
+
+.gr-card {
+  background-color: black;
+}
+
+.text-trending {
+  color: white;
+  width: 104px;
+  height: 36px;
+  font-size: 24px;
+  font-weight: 600px;
+  line-height: 36px;
+  font-weight: 900;
+  font-size: 30px;
+  text-align: left;
+  margin-top: 50px;
+}
+.action {
+  background-color: red;
+  color: white;
+  border-radius: 10px;
+  text-transform: none;
+  height: 40px;
+  width: 67px;
+  font-size: 16px;
+ 
+  margin-top: 10px;
+}
+
+.new-release {
+  font-weight: 700;
+  font-size: 24px;
+  text-align: left;
+  margin-top: 50px;
+  color: white;
+}
+
+.hd{
+  color: white;
+  background-color: red;
+  font-size: 16px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+.Season{
+  color: white;
+  background-color: black;
+ 
+  border: red 2px solid;
+  margin-top: 10px;
+  font-size: 16px;
+  border-radius: 10px; 
+}
+
+.time{
+  color: white;
+  background-color: black;
+  font-size: 16px;
+  border: red 2px solid;
+  margin-top: 10px;
+  padding-top: 10px;
+  border-radius: 10px;
+}
+.my-film{
+  background-color: black;
+  
+}
+.text-silo{
+  color: white;
+  margin-top: 55px;
+}
+.film-img{
+  font-size: 34px;
+  border-radius: 10px;
+  background-color: black;
+
+  margin-top: 45px;
+}
+.btn-option{
+  color: black;
+  background-color: white;
+  margin-left: 15px;
+  margin-top: 50px;
+  font-size: 16px;
+  border-radius: 10px;
+  text-transform: none;
+}
+
+.favourite{
+  width: 240px;
+  height: 56px;
+  text-transform: none;
+  background-color: red;
+  margin-top: 55px;
+  color: white;
+  font-size: 20px;
+  border-radius: 15px;
+
+}
+.guard{
+  color: white;
+  font-size: 16px;
+  text-transform: none;
+  margin-top: 17px;
+  margin-right: -178px;
+}
+.book{
+  color: white;
+  font-size: 16px;
+  text-transform: none;
+  margin-top: 15px;
+  margin-right: -5px;
+}
+.ghost {
+  color: white;
+  font-size: 16px;
+  text-transform: none;
+  margin-top: 15px;
+  margin-right: 2px;
+}
+.conven{
+  font-size: 16px;
+  text-transform: none;
+  margin-top: 17px;
+  color: white;
+  margin-right:  -37px;
+}
+.night{
+  font-size: 16px;
+  text-transform: none;
+  margin-top: 17px;
+  color: white;
+  margin-right:  -25px;
+}
+
+.john {
+  font-size: 16px;
+  text-transform: none;
+  margin-top: 17px;
+  color: white;
+  margin-right: -50px;
+}
+.btn-movies{
+  color: white;
+  background-color: red;
+  text-transform: none;
+  border-radius: 10px;
+  font-size: 16px;
+
+  margin-top: 50px;
+}
+.btn-series{
+  color: #494949;
+  background-color: black;
+  text-transform: none;
+  margin-top: 50px;
+  border: #FF0000 2px solid;
+  border-radius: 15px;
+  width:75px;
+  font-size: 16px;
+  height:55px; 
+ 
+}
+.btn-animation{
+  color: #494949;
+  background-color: black;
+  text-transform: none;
+  margin-top: 50px;
+  border: #FF0000 2px solid;
+  border-radius: 15px;
+ 
+  font-size: 16px;
+}
+.ep{
+  color: white;
+  background-color: red;
+  border-radius: 7px;
+ margin-bottom: 20px;
+ margin-left: 20px;
+}
+.cam{
+  color: white;
+  background-color: red;
+  font-size: 16px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+.moree{
+  background-color: #D9D9D9;
+  margin-left: 100px;
+border-radius: 100%;
+display: block;
+width: 88px;
+height: 88px;
+
+}
+.icon-year{
+  color: white;
+  font-size: 18px;
+  border: none;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+.icon-time{
+  color: white;
+  background-color: black;
+  font-size: 16px;
+  border: rgb(0, 0, 0) 2px solid;
+  margin-top: 50px;
+  
+  border-radius: 10px;
+}
+.more{
+  color: black;
+  width: 27px;
+  height: 29px;
+  margin-top: 24px;
+}
+.ic{
+  width: 20px;
+  height: 20px;
+  margin-left: 11px;
+  margin-top: 50px;
+}
+.text-film{
+  color: white;
+  margin-left: 35px;
+  margin-top: 15px;
+}
+.contant{
+  color: white;
+  margin-left: 50px;
+  margin-top: 60px;
+
+}
+.text-contant{
+  color: white;
+  margin-left: 70px;
+  margin-top: 5px;
+  background-color: black;
+}
+.text-data{
+  color: white;
+  margin-left:30px;
+  margin-top: 5px;
+}
+.production{
+  color: white;
+  margin-left:50px;
+  margin-top: 5px;
+}
+.episode{
+  background-color: red;
+  color: white;
+  font-size: 16px;
+  padding-right: 280px;
+}
+.gr-episode{
+  background-color: #D9D9D9;
+  color: black;
+  font-size: 16px;
+  padding-right: 256px;
+}
+.gr-episode3{
+  background-color: #D9D9D9;
+  color: black;
+  font-size: 16px;
+  padding-right: 310px;
+}
+.gr-episode5{
+  background-color: #D9D9D9;
+  color: black;
+  font-size: 16px;
+  padding-right: 200px;
+}
+.gr-episode6{
+  background-color: #D9D9D9;
+  color: black;
+  font-size: 16px;
+  padding-right: 290px;
+}
+.list-comment{
+  width: 100%;
+  background-color: black;
+}
+.comment{
+  color: white;
+  font-size: 16px;
+padding-right: 827px;
+margin-top: 10px;
+}
