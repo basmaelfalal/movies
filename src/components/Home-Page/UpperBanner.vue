@@ -9,7 +9,7 @@
                     <v-col cols="3">
                     </v-col>
                     <v-col cols="3">
-                        <v-btn class="watchnow">Watch Now
+                        <v-btn class="watchnow" @click="$router.push('/one/1')">Watch Now
                             <div class="btn">
                                 <img src="../../assets/images/ww.svg" alt="" width="31" height="31"
                                     style="border-radius: 50%;">
